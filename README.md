@@ -9,6 +9,16 @@ Reference:
 
 ## SSH でリモートログイン
 
+### ssh コマンドを使う場合
+
+  次のコマンドを実行して，rootのパスワードを入力する．
+```
+$ # <hostname> は VPS のIPアドレス or ドメイン名
+$ ssh root@<hostname>
+```
+
+### PuTTY を使う場合
+
   PuTTY をインストール．起動して「Host Name (or IP address)」の欄にVPSのIPアドレスを入力して「Open」を押す．
   初回接続時は未知のホストに接続している旨の警告が表示されるので，承認する．
   「login as:」に「root」と入力し，パスワードを聞かれるのでrootに設定したパスワードを入力する．

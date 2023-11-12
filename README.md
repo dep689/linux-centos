@@ -109,7 +109,7 @@ $ ssh <username>@<hostname>
   秘密鍵はPuTTYを起動して「Connection → SSH → Auth → Credentials」に移動し
   「Private key file for authentication」というところに作成した秘密鍵ファイルを登録する．
 
-  これでPuTTYを利用して公開鍵認証でSSHログインできる．
+  これでPuTTYを利用して公開鍵認証でSSHログインできる．Pageant に秘密鍵を登録しておくとパスフレーズの入力を省ける．
 
 - [firewall](firewall.md)
 - [nginx と php の設定](nginx-php.md)

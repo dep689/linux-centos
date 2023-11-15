@@ -112,5 +112,5 @@ $ ssh <username>@<hostname>
   これでPuTTYを利用して公開鍵認証でSSHログインできる．Pageant に秘密鍵を登録しておくとパスフレーズの入力を省ける．
 
 - [firewall](firewall.md)
-- [nginx と php の設定](nginx-php.md)
-
+- [nginx/mariadb/php](nginx-mariadb-php.md)
+  
